@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    src: url(/wedcake/assets/font/Kanit-ExtraLightItalic.ttf);
+}
+
+body{
+    font-family: "Kanit",sans-serif;
+}
+
+
+.hero{
+    background-image:url(/wedcake/assets/img/1408757762-442557cake-o.jpg) ;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-content{
+
+}
